@@ -1,0 +1,118 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+button {
+    text-transform: uppercase;
+    width: 60%;
+    padding-inline: 56px;
+    padding: 12px;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 11px;
+    background-color: #009dc4;
+}
+
+.subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/* TOP SLIDER CSS */
+
+#top-slider .carousel-inner {
+    height: 70vh;
+    background-color: #0d3d49;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.carousel-indicators button {
+    background-color: #009dc4 !important;
+}
+
+
+/* WELCOME Section  */
+
+.welcome {
+    padding: 1rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* FACILITIES */
+.facilities {
+    margin: 16px;
+    background-color: #009dc4;
+    text-align: center;
+    color: white;
+}
+
+.facilities-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+/* Rooms */
+.rooms {
+    padding: 1rem;
+    padding-top: 30px;
+    margin-top: 50px;
+    background-color: #00566B;
+    color: white;
+}
+
+.room-card {
+    height: 40vh;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    padding: 16px;
+}
+
+/* Activities */
+.activities {
+    padding-top: 50px;
+    margin: 1rem;
+}
+
+.feedback {
+    /* height: 400px; */
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-image: url(/media/texture.png);
+}
